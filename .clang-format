@@ -22,7 +22,7 @@ AllowShortIfStatementsOnASingleLine: false
 #注释对齐
 AlignTrailingComments: true
 # 换行的时候对齐操作符
-#AlignOperands: true
+AlignOperands: false
 # 中括号两边空格 [] 
 SpacesInSquareBrackets: true
 # 小括号两边添加空格
@@ -30,7 +30,7 @@ SpacesInParentheses : true
 #多行声明语句按照=对齐
 AlignConsecutiveDeclarations: false
 #连续的赋值语句以 = 为中心对齐
-AlignConsecutiveAssignments: true
+AlignConsecutiveAssignments: false
 #等号两边的空格
 SpaceBeforeAssignmentOperators: true
 # 容器类的空格 例如 OC的字典
@@ -40,7 +40,7 @@ IndentWrappedFunctionNames: true
 #在block从空行开始
 KeepEmptyLinesAtTheStartOfBlocks: true
 #在构造函数初始化时按逗号断行，并以冒号对齐
-BreakConstructorInitializersBeforeComma: true
+BreakConstructorInitializersBeforeComma: false
 #函数参数换行
 AllowAllParametersOfDeclarationOnNextLine: false
 #括号后添加空格
@@ -48,6 +48,11 @@ SpaceAfterCStyleCast: true
 #tab键盘的宽度
 TabWidth: 4
 UseTab: Never
+
+IndentCaseLabels: false
+#行宽度限制
+ColumnLimit: 0
+
 #控制单独的大括号换行事件
 BreakBeforeBraces: Custom
 BraceWrapping: 
@@ -91,5 +96,5 @@ ForEachMacros:   [ foreach, Q_FOREACH, BOOST_FOREACH ]
 SpaceBeforeParens: ControlStatements
 # 关闭格式化
 DisableFormat:   false
-...
+
 
