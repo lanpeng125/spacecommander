@@ -1,7 +1,7 @@
 ---
 # Custom options in the special build of clang-format (these are not standard options)
 IndentNestedBlocks: false
-AllowNewlineBeforeBlockParameter: false
+#AllowNewlineBeforeBlockParameter: false
 
 #基于那个配置文件
 BasedOnStyle: LLVM
